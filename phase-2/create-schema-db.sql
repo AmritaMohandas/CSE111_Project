@@ -7,23 +7,20 @@ CREATE TABLE books (
 );
 CREATE TABLE authors (
     a_authorID decimal(9,0) not null,
-    a_name varchar(50)
+    a_name varchar(50),
+    a_condition char(8) not null
 );
 CREATE TABLE booksauthors (
     ba_bookID decimal(9,0) not null,
-    ba_title varchar(100),
-    ba_authorID decimal(9,0) not null,
-    ba_name varchar(50)
+    ba_authorID decimal(9,0) not null
 );
 CREATE TABLE genres (
     g_genreID decimal(3,0) not null,
     g_name varchar(30)
 );
 CREATE TABLE booksgenres (
-    b_bookID decimal(9,0) not null,
-    b_title varchar(100),
-    g_genreID decimal(3,0) not null,
-    g_name varchar(30)
+    bg_bookID decimal(9,0) not null,
+    bg_genreID decimal(3,0) not null
 );
 -- CREATE TABLE region (
 --     r_regionkey decimal(2,0) not null,

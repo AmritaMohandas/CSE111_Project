@@ -1,51 +1,51 @@
-1,Pride and Prejudice,10,Romance
-1,Pride and Prejudice,14,Literary
-1,Pride and Prejudice,38,Classics
-2,Emma,10,Romance
-2,Emma,14,Literary
-2,Emma,38,Classics
-3,The Fifth Season (The Broken Earth #1),1,Fantasy
-3,The Fifth Season (The Broken Earth #1),2,Science Fiction
-3,The Fifth Season (The Broken Earth #1),3,Dystopian
-3,The Fifth Season (The Broken Earth #1),19,LGBTQ+ Fiction
-4,Introduction to Algorithms,37,Science
-4,Introduction to Algorithms,39,Technology
-5,Pachinko,9,Historical Fiction
-5,Pachinko,14,Literary
-6,The Hunger Games (The Hunger Games #1),2,Science Fiction
-6,The Hunger Games (The Hunger Games #1),3,Dystopian
-6,The Hunger Games (The Hunger Games #1),12,Young Adult
-7,Catching Fire (The Hunger Games #2),2,Science Fiction
-7,Catching Fire (The Hunger Games #2),3,Dystopian
-7,Catching Fire (The Hunger Games #2),12,Young Adult
-8,Mockingjay (The Hunger Games #3),2,Science Fiction
-8,Mockingjay (The Hunger Games #3),3,Dystopian
-8,Mockingjay (The Hunger Games #3),12,Young Adult
-9,A Brief History of Time,37,Science
-10,The Emperor of All Maladies: A Biography of Cancer,28,History
-10,The Emperor of All Maladies: A Biography of Cancer,37,Science
-10,The Emperor of All Maladies: A Biography of Cancer,40,Health
-11,I Know Why the Caged Bird Sings,24,Memoir
-11,I Know Why the Caged Bird Sings,25,Autobiography
-12,The Secret of the Old Clock (Nancy Drew #1),11,Children's
-12,The Secret of the Old Clock (Nancy Drew #1),6,Mystery
-12,The Secret of the Old Clock (Nancy Drew #1),38,Classics
-13,The Hidden Staircase (Nancy Drew #2),11,Children's
-13,The Hidden Staircase (Nancy Drew #2),6,Mystery
-13,The Hidden Staircase (Nancy Drew #2),38,Classics
-14,The Kite Runner,9,Historical Fiction
-14,The Kite Runner,13,Contemporary
-14,The Kite Runner,14,Literary
-14,The Kite Runner,38,Classics
-15,The Princess Bride,1,Fantasy
-15,The Princess Bride,10,Romance
-15,The Princess Bride,38,Classics
-16,Charlotte's Web,11,Children's
-16,Charlotte's Web,38,Classics
-17,The Odyssey,21,Poetry
-17,The Odyssey,38,Classics
-18,The Iliad,21,Poetry
-18,The Iliad,38,Classics
-19,Calvin and Hobbes,16,Graphic Novel
-19,Calvin and Hobbes,11,Children's
-20,Sword of Kaigen,1,Fantasy
+1,10
+1,14
+1,38
+2,10
+2,14
+2,38
+3,1
+3,2
+3,3
+3,19
+4,37
+4,39
+5,9
+5,14
+6,2
+6,3
+6,12
+7,2
+7,3
+7,12
+8,2
+8,3
+8,12
+9,37
+10,28
+10,37
+10,40
+11,24
+11,25
+12,11
+12,6
+12,38
+13,11
+13,6
+13,38
+14,9
+14,13
+14,14
+14,38
+15,1
+15,10
+15,38
+16,11
+16,38
+17,21
+17,38
+18,21
+18,38
+19,16
+19,11
+20,1
