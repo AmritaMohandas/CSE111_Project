@@ -22,6 +22,42 @@ CREATE TABLE booksgenres (
     bg_bookID decimal(9,0) not null,
     bg_genreID decimal(3,0) not null
 );
+CREATE TABLE publishers (
+    p_publisherID decimal(3,0) not null,
+    p_name varchar(50)
+);
+CREATE TABLE bookspublishers (
+    bp_bookID decimal(9,0) not null,
+    bp_publisherID decimal(3,0) not null,
+    bp_isbn decimal(15,0) not null,
+    bp_formatID decimal(1,0) not null,
+    bp_publishyear decimal(4,0) not null
+);
+CREATE TABLE format (
+    f_formatID decimal(1,0) not null,
+    f_name char(10) not null
+);
+CREATE TABLE users (
+    u_userID decimal(9,0) not null,
+    u_firstname char(15) not null,
+    u_lastname char(15) not null,
+    u_username char(15) not null,
+    u_email varchar(20),
+    u_password varchar(15),
+    u_category char(15) not null
+);
+CREATE TABLE readingstatus (
+    rs_bookID decimal(9,0) not null,
+    rs_userID decimal(9,0) not null,
+    rs_readStatus char(20) not null
+);
+CREATE TABLE ratings (
+    r_ratingID decimal(9,0) not null,
+    r_bookID decimal(9,0) not null,
+    r_userID decimal(9,0) not null,
+    r_ratingValue decimal(1,0) not null
+);
+
 -- CREATE TABLE region (
 --     r_regionkey decimal(2,0) not null,
 --     r_name char(25) not null,
