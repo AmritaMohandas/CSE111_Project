@@ -1,0 +1,11 @@
+delete from books;
+delete from authors;
+delete from booksauthors;
+delete from genres;
+delete from booksgenres;
+delete from publishers;
+delete from bookspublishers;
+delete from format;
+delete from users;
+delete from ratings;
+delete from readingstatus;

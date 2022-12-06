@@ -1,0 +1,8 @@
+to create schema:
+    sqlite3 db.sqlite < create-schema-db.sql
+
+to empty tables:
+    sqlite3 db.sqlite < empty-tables.sql
+
+to load tuples into database:
+    sqlite3 db.sqlite < load-db.sql
